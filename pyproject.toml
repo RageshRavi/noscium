@@ -1,0 +1,44 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "noscium"
+version = "0.0.1"
+description = "Institutional memory for enterprise AI assistants — governed, multi-user, organizational memory framework."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+authors = [
+    { name = "Ragesh" }
+]
+keywords = [
+    "ai",
+    "memory",
+    "agents",
+    "llm",
+    "enterprise-ai",
+    "institutional-memory",
+    "organizational-memory",
+    "rag",
+]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.urls]
+Homepage = "https://github.com/YOUR_GITHUB_USERNAME/noscium"
+Repository = "https://github.com/YOUR_GITHUB_USERNAME/noscium"
+Issues = "https://github.com/YOUR_GITHUB_USERNAME/noscium/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/noscium"]
